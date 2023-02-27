@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import CardList from './CardList';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {robots} from './robots';
+//import {robots} from './robots';
 import 'tachyons';
 //as it exports more than 1 result. i.e. doesn't export only 1 value by default.
 
@@ -12,7 +11,7 @@ import 'tachyons';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CardList robots={robots}/>
+    <App />
   </React.StrictMode>
 );
 
