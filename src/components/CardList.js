@@ -6,6 +6,12 @@ class CardList extends Component{
 
 	render(){
 
+//		if(true)
+//{
+//	throw new Error('ohh no!!');
+//} this was to test ErrorBoundary
+
+
 		return(
 			<div>
 				{
